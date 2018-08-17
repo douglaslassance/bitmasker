@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Bitmasker-7353.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\Douglas\Desktop\ue\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\Douglas\Desktop\kick\Plugins\Bitmasker\Intermediate\Build\Win64\UE4Editor\Development\Bitmasker\Module.Bitmasker.cpp.obj"
+"C:\Users\Douglas\Desktop\kick\Plugins\Bitmasker\Intermediate\Build\Win64\UE4Editor\Development\Bitmasker\Bitmasker.generated.cpp.obj"
+"C:\Users\Douglas\Desktop\ue\Engine\Intermediate\Build\Win64\UE4Editor\Development\PCLaunch.rc.res"
+"C:\Users\Douglas\Desktop\ue\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"C:\Users\Douglas\Desktop\kick\Plugins\Bitmasker\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bitmasker-7353.lib"

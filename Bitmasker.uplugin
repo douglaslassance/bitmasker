@@ -1,0 +1,23 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Bitmasker",
+	"Description": "",
+	"Category": "Other",
+	"CreatedBy": "Douglas Lassance",
+	"CreatedByURL": "douglaslassance.com",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "Bitmasker",
+			"Type": "Developer",
+			"LoadingPhase": "Default"
+		}
+	]
+}
