@@ -4,12 +4,12 @@ using UnrealBuildTool;
 
 public class Bitmasker : ModuleRules
 {
-	public Bitmasker(TargetInfo Target)
+	public Bitmasker(ReadOnlyTargetRules Target) : base(Target)
 	{
-		
+	    PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
+
 		PublicIncludePaths.AddRange(
 			new string[] {
-				"Bitmasker/Public"
 				// ... add public include paths required here ...
 			}
 			);
@@ -17,7 +17,6 @@ public class Bitmasker : ModuleRules
 		
 		PrivateIncludePaths.AddRange(
 			new string[] {
-				"Bitmasker/Private",
 				// ... add other private include paths required here ...
 			}
 			);

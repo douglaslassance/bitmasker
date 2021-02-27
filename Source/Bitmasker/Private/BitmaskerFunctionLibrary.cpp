@@ -1,7 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-#include "Bitmasker.h"
 #include "BitmaskerFunctionLibrary.h"
+#include "Bitmasker.h"
 
 int32 UBitmaskerFunctionLibrary::ToBitmask(uint8 Enum) {
 	return 1 << Enum;

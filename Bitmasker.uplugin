@@ -2,21 +2,23 @@
 	"FileVersion": 3,
 	"Version": 1,
 	"VersionName": "1.0",
+	"EngineVersion": "4.26.0",
+	"WhitelistPlatforms": [ "Win64", "Win32", "Mac", "XboxOne", "PS4", "IOS", "Android", "HTML5", "Linux" ],
 	"FriendlyName": "Bitmasker",
 	"Description": "",
-	"Category": "Other",
+	"Category": "Transform",
 	"CreatedBy": "Douglas Lassance",
-	"CreatedByURL": "douglaslassance.com",
-	"DocsURL": "",
+	"CreatedByURL": "http://douglaslassance.com",
+	"DocsURL": "https://github.com/douglaslassance/bitmasker",
 	"MarketplaceURL": "",
-	"SupportURL": "",
+	"SupportURL": "https://github.com/douglaslassance/bitmasker/issues",
 	"CanContainContent": false,
 	"IsBetaVersion": false,
 	"Installed": false,
 	"Modules": [
 		{
 			"Name": "Bitmasker",
-			"Type": "Developer",
+			"Type": "Runtime",
 			"LoadingPhase": "Default"
 		}
 	]
